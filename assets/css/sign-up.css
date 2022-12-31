@@ -1,0 +1,21 @@
+/* .opacity-0{
+    opacity: 0;
+}
+.signup-page .page-title h1{
+    position: relative;
+}
+.signup-page .page-title h1 span{
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.signup-page .page-title h1 span img {
+    width: 70px;
+}
+.signup-form{
+    border: 1px solid black;
+    padding: 30px;
+}
+.signup-form .form-control{
+    margin-top: -10px;
+} */

@@ -1,0 +1,183 @@
+/* Sign Up & log In page css Start From Here */
+.sign-form-section, .login-form-section{
+    padding: 80px 0;
+}
+
+.form-heading{
+    font-family: Leitura-display-roman;
+    font-size: 35px;
+    line-height: 70px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.signup-form {
+    border: 1px solid #000;
+    padding: 30px;
+    margin-top: 40px;
+    border: 1.5px solid #000000;
+    border-radius: 10px;
+}
+
+.signup-form .form-control {
+    margin-top: -10px;
+    height: 48px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.signup-form  .form-control:focus {
+    box-shadow: none !important;
+}
+
+
+
+.signup-form select{
+    color: #000000;
+    font-family: Sofia-light;
+   
+}
+
+.signup-form option{
+   color: #fff;
+   width: 700px;
+  background-color:red;
+}
+.signup-form select#country {
+    border: 1px solid #000;
+    width: 120px;
+    padding-right: 0px;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    height: 48px;
+    padding-left: 45px;
+
+}
+.signup-form input#number {
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    height: 48px;
+}
+select#country:focus, input#number:focus{
+    box-shadow: none;
+}
+.country-code-input{
+    position: relative;
+}
+.country-code-input .country-image {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.country-code-input .country-image img{
+    width: 30px;
+}
+.signup-form input::placeholder{
+    color: #000000;
+    font-family: Sofia-light;
+}
+.input-password{
+    position: relative;
+}
+.password-eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+}
+
+.text-left p a {
+    font-size: 18px;
+    font-family: 'Sofia-bold';
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+.text-left label {
+    font-size: 17px;
+    font-family: Sofia-light;
+    color: #535353;
+    font-weight: 700;
+    margin: 0 0 0 8px;
+}
+.signup-form  input[type="checkbox" i] {
+    height: 18px;
+    width: 18px;
+  
+}
+
+.text-left div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.login-btn, .signup-btn{
+    margin: 30px 0;
+}
+
+.login-page-extra-btn a, .signup-page-extra-btn a, .signup-with-googlr-btn a{
+    font-family: 'Sofia-light';
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 44px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.signup-with-googlr-btn {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.signup-with-googlr-btn img{
+    width: 32px;
+}
+.login-page-extra-btn .terms a, .signup-page-extra-btn .terms a{
+    color: #192E72;
+}
+
+
+.radio-btn-sec p {
+    font-size: 17px;
+    font-family: Sofia-light;
+    color: #535353;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.partner a, .login a{
+    text-decoration: underline !important;
+}
+
+
+
+/* Media Query
+==========================
+*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+   
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+

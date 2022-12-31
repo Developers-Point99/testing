@@ -1,0 +1,243 @@
+
+/* Section Title Css ===========*/
+.section-title h2 {
+    font-family: Leitura-display-roman;
+    font-size: 40px;
+    color: var(--primary-color);
+    line-height: 55px;
+    width: 75%;
+    margin: 0 auto;
+}
+.section-title p {
+    font-family: Sofia-light;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    color: var(--primary-color);
+    margin: 15px 75px 50px 75px;
+}
+/* Section Title Css ===========*/
+
+
+
+
+
+
+/* Community Section Start From Here ==========*/
+.community-section{
+    padding: 80px 0;
+}
+.community-description {
+    font-family: Sofia-light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: var(--primary-color);
+}
+.community-number {
+    font-family: Leitura-display-roman;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 70px;
+    
+}
+.community-content {
+    padding: 45px 0;
+}
+/* Community Section End From Here ==========*/
+
+
+/* Skin Care Start From Here ===============*/
+.skin-care{
+  
+}
+.skin-care{
+    background-image: url(../images/AdobeStock_234376292\ \(1\)\ 1.png);
+    background-position: right center;
+    background-size: 45%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.skin-care-title h2 {
+    margin: 0;
+}
+.skin-care-left ul {
+    list-style: none;
+    padding: 35px 0;
+}
+
+.skin-care-left ul li{
+    font-family: Sofia-light;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+.skin-care-left ul li img{
+   margin-right: 12px;
+}
+
+.membership-btn {
+ 
+}
+/* Skin Care End From Here ===============*/
+
+
+/* Buauty Qlick Section Start From Here ======*/
+.beauty-qlick {
+    padding-top: 80px;
+}
+.beauty-qlick-title p {
+    margin-top: 40px;
+}
+/* Buauty Qlick Section End From Here ======*/
+
+
+
+/* Beauty Way Section Start From Here =========*/
+.beauty-way {
+}
+.beauty-element{
+    position: relative;
+    padding: 30px 0 0 30px;
+}
+.section-title.beauty-way-title.text-center h2 {
+    font-size: 35px;
+}
+
+.about-us {
+    padding: 55px 0;
+}
+.beauty-element::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 90%;
+    border: 2px solid #FD605C;
+    z-index: -1;
+}
+.beauty-way-title h2{
+    position: relative;
+}
+.beauty-way-title span {
+    font-family: inherit;
+    z-index: -1;
+    position: absolute;
+    top: 15px;
+    height: 14px;
+    width: 360px;
+    background-color: #EEDEDE;
+}
+.beauty-offer ul {
+    font-family: Sofia-bold;
+    color: var(--primary-color);
+    font-size: 17px;
+}
+.beauty-offer ul li {
+    margin: 22px 0;
+}
+
+.beauty-quote {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.beauty-quote q {
+    font-family: Sofia-bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* Beauty Way Section End From Here ===========*/
+
+
+
+/* Best Selling Section Start From Here ========*/
+.best-selling {
+    padding: 80px 0 35px 0;
+}
+
+.explore-more-btn {
+    margin-top: -90px;
+}
+.explore-more-btn div {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.58);
+    border: 1px solid #FD605C;
+    border-radius: 6px;
+}
+.explore-more-btn a {
+    padding: 10px 32px;
+    color: var(--secondary-color);
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* Best Selling Section End From Here ========*/
+
+
+
+/* News section Start From Here =============*/
+.news-section{
+    padding: 80px 0;
+}
+.news-box {
+    box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.15);
+}
+.news-box.card {
+    border: none;
+}
+.news-meta {
+    padding: 20px 25px;
+}
+.news-category strong {
+    display: inline-block;
+    background: #FD605C;
+    padding: 1px 12px;
+    color: var(--secondary-color);
+    font-family: Sofia-bold;
+    font-size: 20px;
+    font-weight: 700;
+}
+.news-title h2 {
+    font-family: Sofia-bold;
+    font-size: 32px;
+    line-height: 60px;
+}
+.news-read-more-btn a {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+/* News section End From Here ===========*/
+
+
+
+/* Media Query
+==========================
+*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+   
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
